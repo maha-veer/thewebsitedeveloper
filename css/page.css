@@ -1,0 +1,58 @@
+@import url('theme.css');
+/* Home Page */
+#hero{
+    background: url('../images/home-page-hero-banner.png');
+    background-size: cover;
+    position: relative;
+    color: white;
+    z-index: 1;
+}
+#hero::after{
+position: absolute;
+top: 0;
+left: 0;
+content: " ";
+background-color: #00000050;
+height: 100%;
+width: 100%;
+z-index:-1;
+}
+/* Home Page/ */
+/* about us page */
+#about-us-hero{
+    background: url('../images/contact-hero.png');
+    background-size: cover;
+    color: var(--text-light);
+}
+#about-divider{
+    margin-left: 0;
+    width: 50%;
+}
+/* about us page/ */
+
+/* Services Page */
+#services-hero{
+    background: url('../images/services.png');
+    background-size: cover;
+    color: var(--text-light);
+    background-position: right;
+}
+/* Services Page/ */
+
+/* team page */
+#team-hero{
+    background: url('../images/services.png');
+    background-size: cover;
+    color: var(--text-light);
+    background-position: right;
+
+}
+/* team page/ */
+/* contact */
+#contact-hero{
+    background: url('../images/contact-banner.png');
+    background-size: cover;
+    color: var(--text-light);
+    background-position: right;
+}
+/* contact/ */

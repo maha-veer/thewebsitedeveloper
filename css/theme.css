@@ -1,0 +1,111 @@
+:root{
+    --primary-color: #7DCF0B;
+    --secondary-color:#8D47E8;
+    --bg-primary-light:#D9FBAB;
+    --bg-primary-dark:#4E8107;
+    --bg-secondary-light:#4E8107;
+    --bg-secondary-dark:#4E8107;
+    --bg-light:#ffffff;
+    --bg-dark:#000000;
+    --text-dark:#000000;
+    --text-light:#ffffff;
+    --text-accent-primary:#A7F53B  ;
+    --text-accent-secondary:#A56EED    ;
+    --text-accent-ternary:#808080;
+    --desktop-primary-header-text:70px;
+    --desktop-secondary-header-text:48px;
+}
+/* components */
+.primary-btn,.secondary-btn{
+    background-color: var(--bg-light);
+    font-weight: 600;
+    color: var(--text-dark);
+    /* text-shadow: 1px 1px 5px var(--text-dark); */
+    border-color: var(--text-accent-secondary);
+}
+.secondary-btn{
+    background-color: var(--bg-dark);
+    color: var(--text-light)!important;
+}
+.secondary-btn:hover{
+    background-color: var(--bg-light);
+    color: var(--text-dark)!important;
+    border: 1px solid var(--text-dark);
+}
+.primary-btn:hover,.primary-btn:focus{
+    background-color: var(--bg-dark);
+    font-weight: 600;
+    color: var(--text-light);
+}
+.divider{
+    width: 10%;
+    height: 2px;
+    background-color: var(--text-accent-primary);
+    margin: auto;
+}
+.hover:hover{
+    color: var(--text-accent-primary)!important;
+    cursor: pointer;
+}
+/* components */
+
+/* Sections */
+/*  navigation*/
+.nav-button{
+    box-shadow: none!important;
+}
+/* navigation/ */
+/* statics */
+.card-img-top {
+    width: 100%;
+    width: 90px;
+    margin: auto;
+    padding-top: 24px;
+}
+/* statics/ */
+/* about us */
+/* about us */
+
+
+/* usp */
+.usp{
+    background-color: var(--text-accent-primary);
+}
+/* usp/ */
+/* testimonials */
+ul.slick-dots{
+    width: fit-content;
+    display: flex;
+    margin: auto;
+    margin-top: 25px;
+}
+ul.slick-dots li{
+ list-style: none;
+}
+ul.slick-dots li.slick-active button{
+    background-color: var(--primary-color);
+}
+ul.slick-dots li button{
+    border: none;
+    margin: 12px;
+    font-size: 12px;
+    border-radius: 100px;
+    color: var(--text-accent-primary);
+    background-color: var(--bg-primary-light);
+}
+
+/* testimonials/ */
+
+
+/* footer */
+footer, footer a, footer hr{
+    background-color: var(--bg-dark);
+    color: var(--text-light)!important;
+}
+footer a:hover, footer a:focus{
+    color: var(--text-accent-primary)!important;
+}
+.footer-nav,.footer-nav .nav-link{
+    padding-left:  0!important;
+}
+/* footer/ */
